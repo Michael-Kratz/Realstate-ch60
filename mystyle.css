@@ -9,22 +9,26 @@ body {
 p {
   line-height: 2;
 }
-/*utilities*/
 
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+/*utilities*/
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*header*/
 
-header {
+.init-header {
   background-image: url(./img/header.jpg);
   background-size: cover;
   height: 300px;
   color: white;
   text-align: center;
-}
-
-.menu a {
-  color: white;
-  text-decoration: none;
-  margin-right: 20px;
 }
 
 /*main*/
