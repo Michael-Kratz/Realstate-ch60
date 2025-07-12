@@ -1,0 +1,48 @@
+.flex-parent-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: gray;
+}
+.flex-parent-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: gray;
+}
+.flex-parent-around {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: gray;
+}
+
+/*Column*/
+.flex-parent-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  height: 300px;
+}
+.flex-parent-column-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  height: 300px;
+}
+.flex-parent-column-around {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: gray;
+  height: 300px;
+}
+.flex-child {
+  background: rgb(255, 94, 0);
+  width: 200px;
+}
