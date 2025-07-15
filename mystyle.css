@@ -18,6 +18,9 @@ a {
 img {
   max-width: 100%;
 }
+ul {
+  list-style-type: none;
+}
 /*utilities*/
 .container {
   width: 80%;
@@ -54,6 +57,10 @@ img {
 
 /*houses section*/
 .house-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 .house-item {
   background-color: #dedede;
@@ -62,4 +69,17 @@ img {
 }
 .house-item-text {
   padding: 20px;
+}
+.house-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
