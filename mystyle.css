@@ -61,6 +61,7 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 12px;
 }
 .house-item {
   background-color: #dedede;
@@ -70,11 +71,16 @@ ul {
 .house-item-text {
   padding: 20px;
 }
+
+.text-price {
+  color: green;
+}
+
 .house-details {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
+  margin-bottom: 20px;
 }
 
 li {
@@ -82,4 +88,5 @@ li {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 12px;
 }
