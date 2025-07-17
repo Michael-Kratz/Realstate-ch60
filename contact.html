@@ -14,7 +14,7 @@
     <header class="contact-header">
       <div class="contact-menu-container">
         <h1>Real Estate</h1>
-        <nav>
+        <nav class="contact-menu-links">
           <a href="#">About</a>
           <a href="#">Blog</a>
           <a href="#">Contact</a>
@@ -22,19 +22,69 @@
       </div>
     </header>
     <main>
-      <div>
+      <div class="contact-main-header">
         <h2>Contact</h2>
-        <p></p>
-        <p></p>
+        <p class="contact-main-info">Fill the next information</p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam
+          quibusdam suscipit impedit incidunt asperiores quia iure velit
+          corrupti illum deleniti?
+        </p>
       </div>
-      <form>
+      <form class="contact-container">
         <fieldset>
           <legend>Personal Information</legend>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label for="Email">Email:</label>
+            <input type="email" />
+          </div>
+          <div>
+            <label for="phone number">Phone number:</label>
+            <input type="number" />
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea></textarea>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Product information</legend>
+          <div>
+            <label for="type">Type:</label>
+            <select>
+              <option value="option 1">Option 1</option>
+              <option value="option 2">Option 2</option>
+              <option value="option 3">Option 3</option>
+            </select>
+          </div>
+          <div>
+            <label for="number">Number:</label>
+            <input type="number" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Contact information</legend>
+          <div>
+            <label for="email">Email:</label>
+            <input type="radio" name="email" value="email" />
+            <label for="phone">Phone</label>
+            <input type="radio" name="phone" value="phone" />
+          </div>
+          <div>
+            <label for="date">Date:</label>
+            <input type="date" />
+            <label for="hour">Hour:</label>
+            <input type="time" />
+          </div>
         </fieldset>
       </form>
     </main>
-    <footer>
-      <div>
+    <footer class="contact-footer">
+      <div class="contact-footer-container">
         <div>
           <p>Powered by Zillow</p>
         </div>
@@ -42,7 +92,7 @@
           <p>Copyright &copy; 2024</p>
           <p>Privacy Policy</p>
         </div>
-        <div>
+        <div class="footer-icons">
           <div><i class="fa-brands fa-facebook"></i></div>
           <div><i class="fa-brands fa-linkedin-in"></i></div>
           <div><i class="fa-brands fa-youtube"></i></div>
